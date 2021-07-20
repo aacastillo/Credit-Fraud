@@ -1,6 +1,6 @@
 # Credit Fraud Detection with Machine Learning Anomaly Detection
 ### Project Description
-I am using a credit card dataset from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) with over 284,807 credit card transaction. We will clean the data and do a data exploration to compare fraudulent and non-fraudulent transactions. With the clean data set we will run two anomaly detection machine learning algorithms: [Isolation Forest Algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) and [Local Outlier Factor Algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html). We will then test how these machine learning algorithms will perform with and without knowing the proportion of outliers in the dataset, called the contamination proportion.
+I am using a credit card dataset from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) with over 284,807 credit card transaction and too large to upload to GitHub with over 147MB. We will clean the data and do a data exploration to compare fraudulent and non-fraudulent transactions. With the clean data set we will run two anomaly detection machine learning algorithms: [Isolation Forest Algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) and [Local Outlier Factor Algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html). We will then test how these machine learning algorithms will perform with and without knowing the proportion of outliers in the dataset, called the contamination proportion.
 
 ### Machine Learning Algorithms
 #### _Isolation Forest_
@@ -24,6 +24,7 @@ Feature 'Time' contains the seconds elapsed between each transaction and the fir
 2. pandas library
 3. scikit learn library, specifically the Isolation Forest algorithm and Local Outlier Factor
 4. matplotlib
+5. Kaggle credit card dataset
 
 ### To Do
 1. The project uses a deprecated version of numpy which had several updates after v1.20
